@@ -1,0 +1,262 @@
+/* RESPONSIVE */
+@media only screen and (min-width: 960px){
+	.container{
+		width: 960px;
+		height: 100%;
+		margin: 0 auto;
+		padding: 0;
+		position: relative;
+
+	}
+	.header{
+		position: fixed !important;
+
+	}
+
+}
+@media only screen and (max-width: 575px){
+	.main-header{
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Roboto', sans-serif;
+}
+
+.header{
+	background-color: rgba(0, 11, 22, 0.41);
+	width: 100%;
+	display:;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.main-header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	padding: 30px 0;
+}
+.contact span {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.contact i.fas.fa-phone-alt {
+    color: #00aed5;
+    font-size: 20px;
+}
+.footer{
+	width: 100%;
+	background-color: rgba(186,68,60,1);
+	margin-top: 5rem;
+}
+.main-footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+.main-footer p{
+	color: #fff;
+	font-weight: 400;
+	margin: 1rem 0px;
+}
+#home-wrap{
+	background: url('../images/banner.jpg') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	display: block;
+}
+.banner-area{
+    padding-top: 15rem;
+    width: 31rem;
+
+}
+.banner-area p {
+    color: #ffffff;
+}
+
+.banner-area h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.banner-area h3 {
+    color: #78f21b;
+    font-weight: bolder;
+}
+.book-room a{
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	color: #ea2288;
+	font-weight: bold;
+}
+
+.book-room {
+    border: 4px solid #fff;
+    width: 50%;
+    border-radius: 0;
+}
+.box-1{
+
+width: 100%;
+
+margin-top: 3rem;
+
+display: block;
+}
+.box-1 h3{
+	padding: 1rem 0;
+}
+.title-head p{
+	padding-bottom: 4rem;
+	border-bottom: 3px solid #f68714a6;
+}
+.box-1 .content {
+	padding: 3rem 5rem;
+	border-bottom: 3px solid #03aeff;
+}
+.box-1 .content p{
+	font-size: 14px;
+}
+section.box-image{
+	width: 100%;
+	height: auto;
+	margin-top: 4rem;
+}
+section.box-image img{
+	width: 300px;
+	height: 200px;
+	cursor: pointer;	
+	transition: 3s;
+}
+section.box-image .item{
+	overflow: hidden;
+}
+section.box-image img:hover{
+	transform: scale(1.8);
+}
+.box-contact{
+	margin-top: 3rem;
+	background: url('../images/bg-box-contact.png');
+	background-size: cover;
+	padding: 6rem 0;
+}
+.box-contact h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.box-contact p {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.box-contact i.far.fa-envelope {
+    font-size: 3.5rem;
+    color: #09b044;
+}
+.box-contact .form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    transform: translateX(21%);
+    background-color: rgba(9, 164, 255, 0.59);
+    box-shadow: 0px 5px 30px rgba(255,87,34,1);
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+}
+.box-contact form{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+.form>form>input{
+	width: 55%;
+	border-radius: 0;
+	font-style: italic;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+.form>form>div{
+	width: 30%;
+	border-radius: 0;
+}
+.box-map{
+	margin-top: 5rem;
+}
+.box-map h4{
+	font-size: 1.5rem;
+	font-weight: bolder;
+}
+.box-map p{
+	color: #000;
+
+}
+.box-map .line{
+	width: 25%;
+	border: 1px solid #d5bd0f;
+	margin: 1rem 0;
+	font-weight: bold;
+}
+.box-bg-attch{
+	width: 100%;
+	height: 900px;
+	background: url('../images/fixed-bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+.box-intro{
+	margin-top: 4rem;
+
+}
+.box-intro .text-center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 4rem;
+	font-size: 14px;
+}
+.line{
+	border: 1px solid red;
+	width: 25%;
+	margin: 1rem 0;
+}
+.box-utilities{
+	width: 100%;
+	margin-top: 5rem;	
+}
+
+.box-utilities h1 {
+    font-size: 7rem;
+    color: orangered;
+    padding: 0;
+    margin: 0;
+}
+.line1{
+	display: block;
+	border: 1px solid orange;
+	width: 20%;
+	margin: 1rem 0;
+}
+.sub-title{
+	color: #099bcb;
+}
+.content{
+	font-size: .9rem;
+	padding-right: 5rem;
+}
+.pd-left{
+	padding-left: 10rem;
+}
